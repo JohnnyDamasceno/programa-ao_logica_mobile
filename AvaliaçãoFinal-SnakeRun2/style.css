@@ -1,0 +1,27 @@
+@charset "UTF-08";
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url("/assents/snake.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    
+    /*display: flex;*/
+
+}
+h1{
+    font-size: 3em;
+
+}
+
+canvas{
+    border: 10px solid #b98f11;
+    background-color: black;  
+    background-position: center;
+
+    /*overflow hidden vai impedir que ele quebre na proxima linha*/
+}
